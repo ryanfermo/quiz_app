@@ -147,7 +147,7 @@ class _LoginScreenState extends State<LoginScreen>
                 Image.asset('assets/ucu.png', height: 100, fit: BoxFit.contain),
                 const SizedBox(height: 24),
                 Text(
-                  "Welcome to UCU\nYour Future Starts Here!",
+                  "Welcome to UCU\nYour Future Starts Here Now!",
                   style: const TextStyle(
                     fontSize: 36,
                     fontWeight: FontWeight.bold,
