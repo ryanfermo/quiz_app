@@ -437,14 +437,14 @@ class _QuestionFormState extends State<QuestionForm> {
               ],
             ),
           if (widget.questionType == "Identification")
-  Column(
-    children: [
-      TextField(
-        controller: _answerCtrl,
-        decoration: _inputDecoration("Correct Answer"),
-      ),
-    ],
-  ),
+            Column(
+            children: [
+             TextField(
+              controller: _answerCtrl,
+              decoration: _inputDecoration("Correct Answer"),
+              ),
+          ],
+        ),
           const SizedBox(height: 20),
           SizedBox(
             width: double.infinity,
